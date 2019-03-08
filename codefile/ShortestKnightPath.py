@@ -1,3 +1,16 @@
+#Given two different positions on a chess board, find the least number of moves it would take a knight to get from one to the other.
+# 
+# Given two different positions on a chess board, find the least number of moves it would take a knight to get from one to the other. The positions will be passed as two arguments in algebraic notation. For example, knight("a3", "b5") should return 1.
+# 
+# The knight is not allowed to move off the board. The board is 8x8.
+# 
+# For information on knight moves, see https://en.wikipedia.org/wiki/Knight_%28chess%29
+# 
+# For information on algebraic notation, see https://en.wikipedia.org/wiki/Algebraic_notation_%28chess%29
+# 
+# (Warning: many of the tests were generated randomly. If any do not work, the test cases will return the input, output, and expected output; please post them.)
+
+
 board = [['a8','b8','c8','d8','e8','f8','g8','h8'],
          ['a7','b7','c7','d7','e7','f7','g7','h7'],
          ['a6','b6','c6','d6','e6','f6','g6','h6'],
